@@ -13,9 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    UI/qmainglwidget.cpp \
+    UI/qtlogo.cpp \
+    World/world.cpp \
+    Utils/glutils.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    UI/qmainglwidget.h \
+    UI/qtlogo.h \
+    World/world.h \
+    Utils/glutils.h
 
 FORMS    += mainwindow.ui
 
